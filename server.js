@@ -9,8 +9,12 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/ui/myprofile', function (req, res) {
+app.get('/ui/about', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'about_me.html'));
+});
+
+app.get('/ui/myprofile', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'profile.html'));
 });
 
 app.get('/ui/style.css', function (req, res) {
