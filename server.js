@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/myprofile', function (req, res) {
-  res.send("my profile has been requested"));
+  res.send("my profile has been requested");
 });
 
 app.get('/ui/style.css', function (req, res) {
