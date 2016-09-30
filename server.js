@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/myprofile', function (req, res) {
-  res.send("my profile has been requested");
+  res.sendFile(path.join(_dirname, 'master','1.html'));
 });
 
 app.get('/ui/style.css', function (req, res) {
