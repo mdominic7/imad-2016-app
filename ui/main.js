@@ -1,2 +1,2 @@
-console.log('Loaded!');
+console.log('Loaded Up!');
 alert("welocme Guys!!!");
