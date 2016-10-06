@@ -13,10 +13,10 @@ app.get('/ui/about', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'about_me.html'));
 });
 
-app.get('/ui/main.js', function (req, res) {
+/*app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
-
+*/
 app.get('/ui/myprofile', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'profile.html'));
 });
