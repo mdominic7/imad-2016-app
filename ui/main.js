@@ -5,6 +5,16 @@ element.innerHTML = 'Hello! the content has been changed through JS!!!'
 
 // making an image move by 100px to right
 var element2 = document.getElementById('Mypic');
+
+var marginLeft=0;
+
+function moveRight()
+{
+    marginLeft = marginLeft + 10;
+    element2.style.marginLeft = marginLeft + 'px';
+}
+
 element2.onclick = function(){
-    element2.style.marginLeft = '100px';
+    var interval = setInterval(moveRight,100);
+
 };
