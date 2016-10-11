@@ -10,11 +10,11 @@ var marginLeft=0;
 
 function moveRight()
 {
-    marginLeft = marginLeft + 10;
+    marginLeft = marginLeft + 5;
     element2.style.marginLeft = marginLeft + 'px';
 }
 
 element2.onclick = function(){
-    var interval = setInterval(moveRight,100);
+    var interval = setInterval(moveRight,30);
 
 };
