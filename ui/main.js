@@ -4,9 +4,9 @@ alert("welocme Guys!!!");
 element.innerHTML = 'Hello! the content has been changed through JS!!!'*/
 
 // making an image move by 100px to right
-var element2 = document.getElementById('Mypic');
+/*var element2 = document.getElementById('Mypic');
 
-var marginLeft=0;
+var marginLeft=0;*/
 /*
 function moveRight()
 {
