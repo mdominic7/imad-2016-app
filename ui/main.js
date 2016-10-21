@@ -43,8 +43,8 @@ button.onClick = function()
     };
     
     //make the rquest
-    request.open('GET', 'http://mdominic7.imad.hasura-app.io/counter',true);
-    request.send(null);
+  /*  request.open('GET', 'http://mdominic7.imad.hasura-app.io/counter',true);
+    request.send(null);*/
 
 
 
