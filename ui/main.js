@@ -7,7 +7,7 @@ element.innerHTML = 'Hello! the content has been changed through JS!!!'*/
 var element2 = document.getElementById('Mypic');
 
 var marginLeft=0;
-
+/*
 function moveRight()
 {
     marginLeft = marginLeft + 5;
@@ -17,8 +17,9 @@ function moveRight()
 element2.onclick = function(){
     var interval = setInterval(moveRight,30);
 
-}
+}*/
 var button = document.getElementById('counter');
+var counter = 0;
 button.onClick = function()
 {
     //create a request object
